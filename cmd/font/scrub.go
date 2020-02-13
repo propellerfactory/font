@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/ConradIrwin/font/sfnt"
+	"github.com/propellerfactory/font/sfnt"
 )
 
 // Scrub remove the name table (saves significant space).

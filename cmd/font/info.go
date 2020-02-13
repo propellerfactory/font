@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/ConradIrwin/font/sfnt"
+	"github.com/propellerfactory/font/sfnt"
 )
 
 // Info prints the name table (contains metadata).

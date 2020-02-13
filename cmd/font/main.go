@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ConradIrwin/font/sfnt"
+	"github.com/propellerfactory/font/sfnt"
 )
 
 func usage() {
@@ -32,6 +32,7 @@ func main() {
 		"stats":    Stats,
 		"metrics":  Metrics,
 		"features": Features,
+		"convert":  Convert,
 	}
 	if _, found := cmds[command]; !found {
 		usage()

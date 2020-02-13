@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ConradIrwin/font/sfnt"
+	"github.com/propellerfactory/font/sfnt"
 )
 
 // Features prints the gpos/gsub tables (contains font features).
